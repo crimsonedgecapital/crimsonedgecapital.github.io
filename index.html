@@ -58,11 +58,24 @@
             font-size: 20px;
         }
 
-        .services, .about, .contact {
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 15px 30px;
             background-color: #fff;
-            padding: 50px 20px;
-            margin-bottom: 20px;
-            text-align: center;
+            color: #8B0000;
+            border: 2px solid #8B0000;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #8B0000;
+            color: #fff;
         }
 
         footer {
@@ -80,11 +93,18 @@
         <p>Redefining Growth in Investment</p>
     </header>
 
+    <nav>
+        <a href="about.html">About Us</a>
+    </nav>
+
     <section class="hero">
         <h1>Welcome to Crimson Edge Capital</h1>
-        <p>Established 2024</p>
+        <p>Your trusted partner in navigating the world of investments.</p>
+        <div class="button-container">
+            <a href="about.html" class="button">Learn More</a>
+        </div>
     </section>
-    
+
     <footer>
         <p>&copy; 2024 Crimson Edge Capital. All rights reserved.</p>
     </footer>
